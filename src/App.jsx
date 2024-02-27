@@ -1,4 +1,4 @@
-import React from "react";
+
 import { CiCircleCheck } from "react-icons/ci";
 import { AiOutlineInfo } from "react-icons/ai";
 import { SlArrowDown } from "react-icons/sl";
@@ -6,19 +6,32 @@ import Third from "./assets/Third";
 import Fourth from "./assets/Fourth";
 import Fivth from "./assets/Fivth";
 import Sixth from "./assets/Sixth";
+import Seventh from "./assets/Seventh";
+import Footer from "./assets/Footer";
+import Heading from "./assets/Heading";
 
 const App = () => {
   return (
     <div className=" bg-slate-50">
-    <div className="p-12">
-      <div>
-        <h1 className="text-6xl text-slate-700 py-2 my-3.5 font-semibold px-0.5 ">
+    <div className="">
+     <div className="">
+     <Heading></Heading>
+      </div> 
+      <div className="">
+
+
+      
+      <div className="px-12">
+        <h1 className="text-3xl md:text-4xl lg:text-6xl text-slate-700 py-2 mb-2.5 font-semibold px-0.5 ">
           Best Website builders in the US
         </h1>
       </div>
-      <div className="border overflow-hidden hidden lg:block"></div>
+      <div className="px-12 border overflow-hidden hidden lg:block"></div>
 
-      <div className="flex items-center justify-between font-semibold text-gray-600">
+<div className="flex justify-center items-center">
+
+
+      <div className="px-12 flex items-center justify-between font-semibold text-gray-600">
         <div className="flex items-center py-3">
           <div className="flex justify-between items-center pr-2">
             <span className="text-2xl pr-1">
@@ -50,20 +63,28 @@ const App = () => {
           </div>
         </div>
       </div>
+      </div>
 
-      <div className="border overflow-hidden hidden lg:block"></div>
 
-      <div>
+      <div className="px-12 border overflow-hidden hidden lg:block"></div>
+      </div>
+      <div className="flex justify-center items-center px-12">
         <Third></Third>
       </div>
-      <div>
+      <div className="flex justify-center items-center px-12">
         <Fourth></Fourth>
       </div>
-      <div>
+      <div className="p-12">
         <Fivth></Fivth>
       </div>
-      <div>
-        {/* <Sixth></Sixth> */}
+      <div className="p-12">
+        <Sixth></Sixth>
+      </div>
+      <div className="flex justify-center items-center p-12">
+        <Seventh></Seventh>
+      </div>
+      <div >
+        <Footer></Footer>
       </div>
     </div>
     </div>
